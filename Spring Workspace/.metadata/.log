@@ -1,0 +1,813 @@
+!SESSION 2026-10-26 17:24:49.394 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-26 17:24:55.902
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-26 17:25:08.261
+!MESSAGE Logback config file: D:\Spring Workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 4 4 2026-10-26 17:25:09.280
+!MESSAGE Invalid workspace location to be set for Edge browser.
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 15: file:/D:/Spring Workspace/.metadata/.plugins/org.eclipse.swt
+	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+	at java.base/java.net.URI.<init>(URI.java:645)
+	at java.base/java.net.URL.toURI(URL.java:1220)
+	at org.eclipse.ui.internal.Workbench.setEdgeDataDirectory(Workbench.java:530)
+	at org.eclipse.ui.internal.Workbench.<init>(Workbench.java:461)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:598)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:25:16.328
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:25:16.331
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:25:16.430
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-26 17:25:16.707
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Tanisha'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.544
+!MESSAGE [Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\Tanisha\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.545
+!MESSAGE [Info]	[ripgrep] Resolved ripgrep path: C:\Users\Tanisha\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.546
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.527.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.546
+!MESSAGE [Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\Tanisha\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.771
+!MESSAGE [Info]	[certificates] Removed 10 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.772
+!MESSAGE [Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 181 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.772
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.773
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.773
+!MESSAGE [Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.782
+!MESSAGE [Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'none',
+  noProxyCount: 0,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:19.784
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:20.366
+!MESSAGE [Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:20.460
+!MESSAGE [Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 181 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:21.267
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:21.268
+!MESSAGE [Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:21.274
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:21.275
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:21.275
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:21.276
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:21.276
+!MESSAGE [Info]	[BackgroundAgent] GitHub identity changed, clearing cached sessions {
+  hadPrevious: false,
+  hasCurrent: true,
+  cachedSessionCount: 0,
+  remoteDelegateCount: 0
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:25:21.279
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:28:35.088
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:28:35.108
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:30:57.982
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:30:57.989
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:31:56.830
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:31:56.836
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-10-26 17:32:28.891
+!MESSAGE JavaBuilder handling CoreException while building: Spring-Core-Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: release 21 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:90)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:175)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:360)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:90)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:692)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:213)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:668)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:154)
+	at org.eclipse.jst.common.project.facet.core.internal.JavaFacetUtil$1.run(JavaFacetUtil.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: release 21 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:89)
+	... 20 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2026-10-26 17:32:28.893
+!MESSAGE release 21 is not found in the system
+!STACK 0
+java.lang.IllegalArgumentException: release 21 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:89)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:175)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:360)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:90)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:692)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:213)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:403)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:668)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:604)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2457)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:642)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:154)
+	at org.eclipse.jst.common.project.facet.core.internal.JavaFacetUtil$1.run(JavaFacetUtil.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:32:28.916
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:32:28.929
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-10-26 17:32:29.000
+!MESSAGE JavaBuilder handling CoreException while building: Spring-Core-Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: release 21 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:90)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:175)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:360)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:90)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:692)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:213)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:601)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.jst.common.project.facet.core.internal.JavaFacetUtil$1.run(JavaFacetUtil.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: release 21 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:89)
+	... 19 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2026-10-26 17:32:29.000
+!MESSAGE release 21 is not found in the system
+!STACK 0
+java.lang.IllegalArgumentException: release 21 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:89)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:175)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:360)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:90)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:692)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:213)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:601)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:490)
+	at org.eclipse.jst.common.project.facet.core.internal.JavaFacetUtil$1.run(JavaFacetUtil.java:152)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:32:40.497
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:32:40.508
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:33:38.856
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:33:38.887
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:33:40.066
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:33:40.068
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:33:40.071
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:33:40.072
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:33:40.093
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:33:40.103
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:34:03.391
+!MESSAGE [Info] Language ID not found for extension: xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:34:03.665
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-10-26 17:34:03.666
+!MESSAGE [Warning]	[relatedFiles] unknown language xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:34:03.667
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:34:03.667
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:34:04.499
+!MESSAGE [Info]	[fetchCompletions] Request 91f1d7b1-f30e-42f6-9db1-0f77d5177407 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 817.0986000000266ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:34:05.440
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:34:05.453
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:34:08.608
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:34:46.206
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:34:46.217
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-10-26 17:34:56.974
+!MESSAGE [Warning]	[relatedFiles] unknown language java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:34:57.253
+!MESSAGE [Info]	[fetchCompletions] Request 5993c44a-8483-4fcc-a9d1-c41d0a0496f2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 278.280299999984ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:34:58.992
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:34:59.003
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:35:01.969
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:35:16.548
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:35:16.554
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:35:19.598
+!MESSAGE [Info]	[fetchCompletions] Request 6f740f4c-7e8f-4e03-af51-60e3d20e76ce at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 771.0028000000166ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:35:21.768
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:35:21.782
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:35:23.805
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:35:38.467
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:35:38.476
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:35:42.428
+!MESSAGE [Info]	[fetchCompletions] Request 09942d7c-a3b5-42ae-b554-db6422e24dd2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 873.4294000000227ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:35:42.653
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:35:42.671
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:35:46.539
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:38:02.806
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:38:02.815
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:38:12.440
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:38:12.459
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:38:12.462
+!MESSAGE [Info]	[fetchCompletions] Request 0ad88afa-ffe2-4a9d-9c4f-3303bb94c819 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1004.2675000000745ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:38:16.435
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:38:23.317
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:38:23.326
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:38:34.050
+!MESSAGE [Info]	[fetchCompletions] Request fc900c83-8f6e-4e93-9a80-563f6b483241 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 977.3471999999601ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:38:34.111
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:38:34.126
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:38:38.048
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:39:13.998
+!MESSAGE [Info]	[fetchCompletions] Request 53266b91-19a5-4618-8452-593762531814 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1129.3388999999734ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:39:14.351
+!MESSAGE [Info]	[fetchCompletions] Request 7513d133-0ebb-494a-9412-5baa650f5397 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 328.40500000002794ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:39:15.030
+!MESSAGE [Info]	[fetchCompletions] Request 1bf73b6c-364f-4c04-aadf-263a8ce7aa90 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 555.9729999999981ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:39:15.393
+!MESSAGE [Info]	[fetchCompletions] Request 1605ec3f-58e1-4e2a-a769-ad2e55f6e016 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 333.38829999999143ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:39:15.917
+!MESSAGE [Info]	[fetchCompletions] Request bd75452e-0718-4675-b1d9-c9e4afc946af at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 404.11269999993965ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:39:16.327
+!MESSAGE [Info]	[fetchCompletions] Request 66799579-4054-4df0-9b4e-a8bc2c5b041c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 389.16950000007637ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:39:20.647
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:39:20.648
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:39:20.740
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:39:20.756
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:39:20.933
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:39:22.728
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:39:22.749
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:39:37.495
+!MESSAGE [Info] Document is null for editor: person.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:39:37.496
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/resources/person.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:40:38.226
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:40:38.244
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:40:47.147
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:40:47.156
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:40:52.454
+!MESSAGE [Info] Document is null for editor: Payment.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:40:52.455
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/ioc/Payment.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:40:53.724
+!MESSAGE [Info] Document is null for editor: Order.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:40:53.726
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/ioc/Order.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:40:55.144
+!MESSAGE [Info] Document is null for editor: Inventory.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:40:55.145
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/ioc/Inventory.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:06.007
+!MESSAGE [Info]	[fetchCompletions] Request bfc62e60-5cd2-4049-acfd-7170a124aad6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1082.1746000000276ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:06.365
+!MESSAGE [Info]	[fetchCompletions] Request c7bfc4ed-6f8c-4341-89a7-f57c8f986d5c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 321.58499999996275ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:06.822
+!MESSAGE [Info]	[fetchCompletions] Request bbb9cea8-69d7-437d-b38e-956f372a6be2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 327.2402000000002ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:10.125
+!MESSAGE [Info]	[fetchCompletions] Request 13ca9c30-a061-4de3-a554-e6445481a3c0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.16599999996834ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:10.724
+!MESSAGE [Info]	[fetchCompletions] Request e5539b2b-66ea-4d00-9b7f-4022d450af2d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 443.15629999991506ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:13.224
+!MESSAGE [Info]	[fetchCompletions] Request 6c4403b6-7530-4b03-9d10-6dc990f0d0ee at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 356.31909999996424ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:14.677
+!MESSAGE [Info]	[fetchCompletions] Request 817ee7f7-a63b-465e-8417-938f9b20da7a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 350.59230000001844ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:15.059
+!MESSAGE [Info]	[fetchCompletions] Request 761ce91b-01c4-4285-bf0b-1bbfcf16f031 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 316.70389999996405ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:20.727
+!MESSAGE [Info]	[fetchCompletions] Request 6011ec2e-6aee-4dbf-9da7-96875cc679c5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 340.8672999999253ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:21.264
+!MESSAGE [Info]	[fetchCompletions] Request 85932b5f-73c3-4926-a597-956843deb024 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 394.48930000001565ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:23.393
+!MESSAGE [Info]	[fetchCompletions] Request 32e0fab6-64b8-413b-b3c5-5de34cd49d79 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 373.0582999999169ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:27.001
+!MESSAGE [Info]	[fetchCompletions] Request 9a519f68-c640-4d26-95e7-e1911ba09b9c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 982.6365000000224ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:27.609
+!MESSAGE [Info]	[fetchCompletions] Request 387b59ab-d832-4704-94f7-a3d7064768af at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 580.2613999999594ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:28.425
+!MESSAGE [Info]	[fetchCompletions] Request 62f455c2-ac41-45f4-bcb7-8028644ae7b6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 477.1145999999717ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:32.950
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:34.159
+!MESSAGE [Info]	[fetchCompletions] Request c89dc52b-7b73-4dae-9c74-aeee7ce0f813 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 429.2170000000624ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:35.100
+!MESSAGE [Info]	[fetchCompletions] Request 18a15903-7174-403e-a25e-35ec85b26315 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 550.9131999999518ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:41:35.293
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:41:35.301
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:35.698
+!MESSAGE [Info]	[fetchCompletions] Request 59b3742a-2670-4e8d-8e2b-48fd8885b24e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 385.20270000002347ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:40.313
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:48.240
+!MESSAGE [Info]	[fetchCompletions] Request 916d8394-02db-4309-ba42-8e61e06f618b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 639.8445000000065ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:41:48.571
+!MESSAGE [Info]	[fetchCompletions] Request cf143248-d34d-4521-b7b0-4f06bd22f506 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 306.9895999999717ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:42:03.261
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:42:37.025
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:42:37.291
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:42:37.299
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:42:51.556
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:42:51.570
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:42:51.834
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:42:51.836
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:42:51.838
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:42:51.842
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:42:51.869
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2026-10-26 17:42:51.884
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:43:00.654
+!MESSAGE [Info] Document is null for editor: person.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:43:00.656
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/resources/person.xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:43:03.893
+!MESSAGE [Info]	[fetchCompletions] Request c8d5ed78-1c71-4a13-88a8-f6928d792918 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 519.249499999918ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:43:21.602
+!MESSAGE [Info]	[fetchCompletions] Request cc3689c5-b8b0-4d88-a379-9446725e8f9a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 299.2482000000309ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:43:22.295
+!MESSAGE [Info]	[fetchCompletions] Request 57586fc0-9177-40e4-8636-ee17441768fe at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 470.7946000001393ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:43:30.720
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:43:55.395
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:43:55.410
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:43:58.472
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:44:14.940
+!MESSAGE [Info] Document is null for editor: TestStudent.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:44:14.941
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/test/TestStudent.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:44:16.399
+!MESSAGE [Info] Document is null for editor: Student.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:44:16.400
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/test/Student.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:44:28.084
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:44:28.095
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:44:43.197
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:44:43.204
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:45:05.236
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:45:05.255
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:45:12.721
+!MESSAGE [Info] Document is null for editor: student.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:45:12.723
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/resources/student.xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:45:15.147
+!MESSAGE [Info]	[fetchCompletions] Request b51ff7a8-4b99-4760-ba06-698b5bd07ce0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 395.16800000006333ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:45:22.898
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:45:38.587
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:12.598
+!MESSAGE [Info]	[fetchCompletions] Request e746b4f9-e71d-4a13-8fb4-ec0d6a36265b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 377.7759000000078ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:13.045
+!MESSAGE [Info]	[fetchCompletions] Request 268a0bab-581b-493c-b368-b67c028c5b0e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 354.3159000000451ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:18.123
+!MESSAGE [Info]	[fetchCompletions] Request 655897ba-753c-451e-921d-7f68f54fdb4f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 538.250699999975ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:18.460
+!MESSAGE [Info]	[fetchCompletions] Request 8d223f94-a769-44f3-b21d-fa055c61c782 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 315.6662999999244ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:18.813
+!MESSAGE [Info]	[fetchCompletions] Request 813f9f15-9152-4369-ab30-745d6a0ee917 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 309.2113000000827ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:19.232
+!MESSAGE [Info]	[fetchCompletions] Request a0d20e11-bc1a-4d51-8d5e-acacbb4bdee1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 342.93980000005104ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:19.758
+!MESSAGE [Info]	[fetchCompletions] Request 252d0266-1c02-4874-9b49-004f34d7aa58 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 415.8821000000462ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:46:21.468
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:46:21.484
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:24.402
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:46:24.903
+!MESSAGE [Info] Document is null for editor: employee.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:46:25.111
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/resources/employee.xml
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:29.633
+!MESSAGE [Info]	[fetchCompletions] Request ae36bbbe-7caa-459b-bc53-786ceeb6b248 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 479.0523000000976ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:30.216
+!MESSAGE [Info]	[fetchCompletions] Request aa336ed2-5d6e-4733-bf50-441bd996fc02 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 503.5441999998875ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:30.815
+!MESSAGE [Info]	[fetchCompletions] Request aaa6da3d-75d2-4ea9-a15b-ffb9cc31ec5d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 484.44800000009127ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:37.178
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:37.809
+!MESSAGE [Info]	[fetchCompletions] Request 004f5f7f-a8d4-4a6e-816b-354da955db19 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 306.09450000012293ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:39.109
+!MESSAGE [Info]	[fetchCompletions] Request 3f514bbf-0fcd-4abd-a72c-0d4602b35336 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 976.5611000000499ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:39.954
+!MESSAGE [Info]	[fetchCompletions] Request 6ccfeb42-e4ac-4029-b214-8b946e64820f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 365.98830000008456ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:40.427
+!MESSAGE [Info]	[fetchCompletions] Request 9eb4d353-746d-411c-ad18-96bcaad55197 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.16769999987446ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:42.185
+!MESSAGE [Info]	[fetchCompletions] Request c216ca60-2f61-4a0a-af79-3f8df3a66696 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 346.82190000009723ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:43.893
+!MESSAGE [Info]	[fetchCompletions] Request 0a24dc93-d0d8-4c3d-bf19-8886ae58f9ce at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 352.83680000016466ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:44.952
+!MESSAGE [Info]	[fetchCompletions] Request 35f1410b-178e-4d75-b435-8e1b5a5d29f0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 435.82170000020415ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:45.515
+!MESSAGE [Info]	[fetchCompletions] Request c9307b59-2924-470f-bf52-2e207593f3a1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 306.1779000000097ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:52.478
+!MESSAGE [Info]	[fetchCompletions] Request a70dbac2-c233-42cb-990f-c8e3d2ce6f0f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 317.0064999999013ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:56.358
+!MESSAGE [Info]	[fetchCompletions] Request ed3a1492-59b5-4943-9a2b-44937e5ba114 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 318.2727999999188ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:57.805
+!MESSAGE [Info]	[fetchCompletions] Request 9dcea715-2bd6-4f2b-99ee-e02fd099b9cf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 313.5578999998979ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:58.171
+!MESSAGE [Info]	[fetchCompletions] Request a6712921-5767-4d1d-9436-36144f1bca4c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 337.6296999999322ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:46:58.777
+!MESSAGE [Info]	[fetchCompletions] Request 801393b6-4112-4c59-a543-84f611e5a170 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 489.12100000004284ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:03.269
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:04.023
+!MESSAGE [Info]	[fetchCompletions] Request 53463904-1220-4d03-9ca2-563cf77aaaf7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 307.65559999994ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:04.882
+!MESSAGE [Info]	[fetchCompletions] Request 4f855dd9-4d2b-47d5-9f4c-b4d2457390cb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 337.8654000000097ms
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:47:05.192
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:47:05.200
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:09.546
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:16.482
+!MESSAGE [Info]	[fetchCompletions] Request 5982ccfd-f25e-41d0-862e-c1504108d97d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 391.27570000011474ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:17.235
+!MESSAGE [Info]	[fetchCompletions] Request 505cc51c-35f5-4f21-b489-f8a0012a0c42 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 377.3388000000268ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:18.014
+!MESSAGE [Info]	[fetchCompletions] Request bd684dcd-ab52-4531-aecb-e6bb0cfb0588 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 354.4745999998413ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:38.192
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:47:52.283
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-26 17:47:52.301
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-10-26 17:47:55.961
+!MESSAGE [Info]	[AuthManager] resolveSession: persisted store resolved a session
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:49:09.485
+!MESSAGE [Info] Document is null for editor: Person.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:49:09.486
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/test/Person.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:49:09.541
+!MESSAGE [Info] Document is null for editor: TestPerson.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:49:09.542
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/test/TestPerson.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:49:09.596
+!MESSAGE [Info] Document is null for editor: Employee.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:49:09.597
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/test/Employee.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:49:09.643
+!MESSAGE [Info] Document is null for editor: TestEmployee.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-10-26 17:49:09.644
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///D:/Spring%20Workspace/Spring-Core-Project/src/main/java/com/rays/test/TestEmployee.java
